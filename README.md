@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="./public/splitly.svg" alt="Splitly logo" width="60" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Splitly
 
-Currently, two official plugins are available:
+## 🖼️ Aperçu visuel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="./public/screens/simulation-splitly-light-dark.png" alt="Splitly simulation in light and dark mode" />
 
-## Expanding the ESLint configuration
+**Simulateur de répartition des dépenses**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Splitly est une application web qui permet aux couples ou colocataires de simuler une répartition équitable des dépenses communes en fonction des revenus de chacun. L'objectif est de simplifier la gestion des charges partagées en calculant automatiquement qui paie quoi, selon un prorata personnalisé.
 
-```js
-export default tseslint.config({
-	extends: [
-		// Remove ...tseslint.configs.recommended and replace with this
-		...tseslint.configs.recommendedTypeChecked,
-		// Alternatively, use this for stricter rules
-		...tseslint.configs.strictTypeChecked,
-		// Optionally, add this for stylistic rules
-		...tseslint.configs.stylisticTypeChecked,
-	],
-	languageOptions: {
-		// other options...
-		parserOptions: {
-			project: ['./tsconfig.node.json', './tsconfig.app.json'],
-			tsconfigRootDir: import.meta.dirname,
-		},
-	},
-});
+## 🚀 Site en ligne
+
+[Voir le site](https://splitly.theobrissiaud.fr)
+
+## 🌐 Stack technique
+
+* **React 19** avec **Vite**
+* **TypeScript**
+* **Redux Toolkit** pour la gestion d'état global
+* **React Router** pour la navigation
+* **Tailwind CSS v4** + **shadcn/ui** pour l'interface
+* **Zod** + **React Hook Form** pour la validation des formulaires
+* **i18next** pour la gestion multilingue (fr/en)
+
+## ✨ Fonctionnalités principales
+
+* Simulation instantanée des contributions selon les revenus
+* Ajout de dépenses récurrentes (loyer, abonnements, etc.)
+* Interface responsive claire et moderne
+* Dark mode
+* Authentification (via Google, GitHub ou email/password)
+* Données persistées via une API REST propulsée par Strapi v5
+
+## 📝 Installation locale
+
+```bash
+pnpm install
+pnpm dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+L'application tourne par défaut sur [http://localhost:5173](http://localhost:5173)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
+## 🎓 Auteur
 
-export default tseslint.config({
-	plugins: {
-		// Add the react-x and react-dom plugins
-		'react-x': reactX,
-		'react-dom': reactDom,
-	},
-	rules: {
-		// other rules...
-		// Enable its recommended typescript rules
-		...reactX.configs['recommended-typescript'].rules,
-		...reactDom.configs.recommended.rules,
-	},
-});
-```
+**Théo Brissiaud**
+[LinkedIn](https://www.linkedin.com/in/theobrissiaud) · [Portfolio](https://theobrissiaud.fr)
+
+## ✉️ Licence
+
+MIT — libre d'utilisation et de modification. Voir le fichier [LICENSE](./LICENSE).
