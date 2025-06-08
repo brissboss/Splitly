@@ -1,0 +1,119 @@
+{
+	"themeToggle": {
+		"light": "Light",
+		"dark": "Dark",
+		"system": "System",
+		"toggleLabel": "Change theme"
+	},
+	"translationToggle": {
+		"toggleLabel": "Choose language"
+	},
+	"auth": {
+		"login": "Log in",
+		"signup": "Sign up",
+		"loginTitle": "Login",
+		"signupTitle": "Sign up",
+		"loginDescription": "Log in to save and share your simulations.",
+		"signupHint": "Create an account to save and easily access your simulations.",
+		"signupDescription": "Create an account to save and share your simulations.",
+		"mail": "Email address",
+		"password": "Password",
+		"confirmPassword": "Confirm password",
+		"loginButton": "Login",
+		"signupButton": "Create account",
+		"noAccount": "No account yet? Sign up",
+		"hasAccount": "Already have an account? Log in",
+		"logout": "Log out",
+		"orContinueWith": "Or continue with",
+		"externalProviders": {
+			"errorTitle": "Unable to sign in",
+			"errorDescription": "An error occurred while signing in with {{provider}}. Please try again or use another method.",
+			"retryWithProvider": "Try again with {{provider}}",
+			"supportHint": "If the problem persists, please check that your {{provider}} account is valid."
+		},
+		"forgotPassword": {
+			"forgotButton": "Forgot password?",
+			"forgotTitle": "Reset your password",
+			"forgotDescription": "Enter your email address to receive a password reset link",
+			"forgotCancelButton": "Cancel",
+			"forgotSendButton": "Send email",
+			"forgotSendConfirmationTitle": "Email sent successfully",
+			"forgotSendConfirmationDescription": "If an account is associated with this address, you will receive a reset link. Don’t forget to check your spam or junk folder."
+		},
+		"resetPassword": {
+			"resetTitle": "Reset your password",
+			"resetDescription": "Choose a new secure password for your account",
+			"resetButton": "Reset password",
+			"newPassword": "New password",
+			"passwordConfirmation": "Confirm password"
+		}
+	},
+	"result": {
+		"title": "Summary",
+		"monthlyIncome": "Monthly income per person",
+		"sharedExpenses": "Shared expenses",
+		"personalExpenses": "Individual expenses",
+		"savingsSummary": "Potential savings",
+		"noMember": "Add a member to get a summary",
+		"member": "Member {{count}}"
+	},
+	"form": {
+		"save": "Save simulation",
+		"section": {
+			"monthlyIncome": {
+				"title": "Monthly income",
+				"labelName": "Member name",
+				"labelSalary": "Salary",
+				"addMember": "Add a member"
+			},
+			"sharedExpenses": {
+				"title": "Shared expenses",
+				"totalExpenses": "Total expense",
+				"addDetail": "Add an expense",
+				"labelDetail": "Expense name",
+				"labelPlaceholder": "Rent",
+				"amountDetail": "Amount",
+				"amountPlaceholder": "1,234.56",
+				"prorataText": "Calculation of shared expenses based on each member's salary",
+				"notEnoughMembers": "Add at least two members to manage shared expenses"
+			},
+			"personalExpenses": {
+				"title": "Individual expenses",
+				"noMembers": "Add a member to get started"
+			}
+		},
+		"errors": {
+			"error": "Error",
+			"nameRequired": "Please enter a name.",
+			"labelRequired": "Please provide an expense name.",
+			"salaryRequired": "Please enter the salary.",
+			"amountRequired": "Please enter the expense amount.",
+			"salaryPositive": "Salary must be greater than zero.",
+			"amountPositive": "Amount must be greater than zero.",
+			"emailRequired": "Please enter an email address.",
+			"emailInvalid": "Please enter a valid email address.",
+			"passwordMinLength": "Password must be at least 8 characters long.",
+			"passwordUppercase": "Password must include at least one uppercase letter.",
+			"passwordLowercase": "Password must include at least one lowercase letter.",
+			"passwordNumber": "Password must include at least one number.",
+			"passwordSpecialCharacter": "Password must include at least one special character from: ! @ # $ % ^ & * .",
+			"userExists": "This email address is already in use.",
+			"invalidCredentials": "The information provided is incorrect.",
+			"resetPasswordFailed": "The reset link is invalid or incomplete. Please use the link you received by email.",
+			"passwordMismatch": "Passwords do not match",
+			"unknownError": "An unexpected error occurred. Please try again."
+		}
+	},
+	"toasts": {
+		"saveSuccessTitle": "Simulation Saved",
+		"saveSuccessDescription": "Your simulation has been successfully saved.",
+		"saveErrorTitle": "Save Failed",
+		"saveErrorDescription": "Unable to save the simulation."
+	},
+	"notFound": {
+		"title": "404",
+		"subtitle": "This page doesn't exist.",
+		"description": "You may have taken a wrong turn.",
+		"backToHome": "Back to home"
+	}
+}

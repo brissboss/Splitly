@@ -1,0 +1,119 @@
+{
+	"themeToggle": {
+		"light": "Clair",
+		"dark": "Sombre",
+		"system": "Système",
+		"toggleLabel": "Changer le thème"
+	},
+	"translationToggle": {
+		"toggleLabel": "Choisir la langue"
+	},
+	"auth": {
+		"login": "Se connecter",
+		"signup": "S'inscrire",
+		"loginTitle": "Connexion",
+		"signupTitle": "Inscription",
+		"loginDescription": "Connectez-vous pour sauvegarder et partager vos simulations.",
+		"signupHint": "Créez un compte pour enregistrer et retrouver facilement vos simulations.",
+		"signupDescription": "Créez un compte pour sauvegarder et partager vos simulations.",
+		"mail": "Adresse e-mail",
+		"password": "Mot de passe",
+		"confirmPassword": "Confirmer le mot de passe",
+		"loginButton": "Connexion",
+		"signupButton": "Créer un compte",
+		"noAccount": "Pas encore de compte\u00a0? Inscrivez-vous",
+		"hasAccount": "Vous avez déjà un compte\u00a0? Connectez-vous",
+		"logout": "Se déconnecter",
+		"orContinueWith": "Ou continuer avec",
+		"externalProviders": {
+			"errorTitle": "Connexion impossible",
+			"errorDescription": "Une erreur est survenue lors de la connexion avec {{provider}}. Veuillez réessayer ou utiliser une autre méthode.",
+			"retryWithProvider": "Réessayer avec {{provider}}",
+			"supportHint": "Si le problème persiste, vérifiez que votre compte {{provider}} est valide."
+		},
+		"forgotPassword": {
+			"forgotButton": "Mot de passe oublié\u00a0?",
+			"forgotTitle": "Réinitialiser votre mot de passe",
+			"forgotDescription": "Saisissez votre adresse e-mail pour recevoir un lien de réinitialisation de mot de passe",
+			"forgotCancelButton": "Annuler",
+			"forgotSendButton": "Envoyer le mail",
+			"forgotSendConfirmationTitle": "Mail envoyé avec succès",
+			"forgotSendConfirmationDescription": "Si un compte est associé à cette adresse, vous allez recevoir un lien de réinitialisation. Pensez à vérifier vos spams ou courriers indésirables."
+		},
+		"resetPassword": {
+			"resetTitle": "Réinitialiser votre mot de passe",
+			"resetDescription": "Choisissez un nouveau mot de passe sécurisé pour votre compte",
+			"resetButton": "Réinitialiser le mot de passe",
+			"newPassword": "Nouveau mot de passe",
+			"passwordConfirmation": "Confirmer le mot de passe"
+		}
+	},
+	"result": {
+		"title": "Résumé",
+		"monthlyIncome": "Revenus mensuels par personne",
+		"sharedExpenses": "Dépenses communes",
+		"personalExpenses": "Dépenses individuelles",
+		"savingsSummary": "Épargne potentielle",
+		"noMember": "Ajoutez un membre afin d’obtenir un résumé",
+		"member": "Membre {{count}}"
+	},
+	"form": {
+		"save": "Sauvegarder la simulation",
+		"section": {
+			"monthlyIncome": {
+				"title": "Revenus mensuels",
+				"labelName": "Nom du membre",
+				"labelSalary": "Salaire",
+				"addMember": "Ajouter un membre"
+			},
+			"sharedExpenses": {
+				"title": "Dépenses communes",
+				"totalExpenses": "Dépense total",
+				"addDetail": "Ajouter une dépense",
+				"labelDetail": "Nom de la dépense",
+				"labelPlaceholder": "Loyer",
+				"amountDetail": "Montant",
+				"amountPlaceholder": "1 234,56",
+				"prorataText": "Calcul des dépenses commune au prorata du salaire de chaque membres",
+				"notEnoughMembers": "Ajoutez au moins deux membres pour gérer les dépenses communes"
+			},
+			"personalExpenses": {
+				"title": "Dépense individuelles",
+				"noMembers": "Ajoutez un membre pour commencer"
+			}
+		},
+		"errors": {
+			"error": "Erreur",
+			"nameRequired": "Veuillez saisir un nom.",
+			"labelRequired": "Veuillez indiquer le nom de la dépense.",
+			"salaryRequired": "Veuillez saisir le salaire.",
+			"amountRequired": "Veuillez saisir le montant de la dépense.",
+			"salaryPositive": "Le salaire doit être supérieur à zéro.",
+			"amountPositive": "Le montant doit être supérieur à zéro.",
+			"emailRequired": "Veuillez saisir une adresse e-mail.",
+			"emailInvalid": "Veuillez saisir une adresse e-mail valide.",
+			"passwordMinLength": "Le mot de passe doit contenir au moins 8 caractères.",
+			"passwordUppercase": "Le mot de passe doit contenir au moins une lettre majuscule.",
+			"passwordLowercase": "Le mot de passe doit contenir au moins une lettre minuscule.",
+			"passwordNumber": "Le mot de passe doit contenir au moins un chiffre.",
+			"passwordSpecialCharacter": "Le mot de passe doit contenir au moins un caractère spécial parmi : ! @ # $ % ^ & * .",
+			"userExists": "Cette adresse e-mail est déjà utilisée.",
+			"invalidCredentials": "Les informations saisies sont incorrectes.",
+			"resetPasswordFailed": "Le lien de réinitialisation est invalide ou incomplet. Veuillez utiliser le lien reçu par email.",
+			"passwordMismatch": "Les mots de passe ne correspondent pas",
+			"unknownError": "Une erreur inattendue est survenue. Veuillez réessayer."
+		}
+	},
+	"toasts": {
+		"saveSuccessTitle": "Simulation sauvegardée",
+		"saveSuccessDescription": "Votre simulation a été enregistrée avec succès.",
+		"saveErrorTitle": "Échec de la sauvegarde",
+		"saveErrorDescription": "Impossible d'enregistrer la simulation."
+	},
+	"notFound": {
+		"title": "404",
+		"subtitle": "Cette page n'existe pas.",
+		"description": "Tu t'es peut-être perdu·e en chemin.",
+		"backToHome": "Retour à l'accueil"
+	}
+}
