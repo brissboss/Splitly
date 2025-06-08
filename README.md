@@ -47,7 +47,7 @@ L'application tourne par défaut sur [http://localhost:5173](http://localhost:51
 ## 🎓 Auteur
 
 **Théo Brissiaud**
-[LinkedIn](https://www.linkedin.com/in/theobrissiaud)
+[LinkedIn](https://www.linkedin.com/in/theo-brissiaud)
 ## ✉️ Licence
 
 MIT — libre d'utilisation et de modification. Voir le fichier [LICENSE](./LICENSE).
